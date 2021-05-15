@@ -104,39 +104,3 @@ while Continue:
 		Save_data()
 		Save_ID()
 		Continue = False
-
-
-
-
-# for element in datos:
-
-# 	#Aqui en la primera iteracion, {element} es la lista {persona1}
-
-# 	if element[0] == nombre:
-
-# 		#Pregunto si el primer elemento de la lista {persona1} tiene
-# 		#el valor de {nombre}, y si lo tiene entonces imprimo en 
-# 		#pantalla la lista {persona1}
-
-# 		print(element)
-# 		#Al final rompo el ciclo for para que no siga ejecutandose
-# 		#ya que se obtuvo el resultado esperado
-# 		break
-
-# # Fragmente los datos en 2 partes, una es la que contiene los datos
-# # que es de tipo diccionario, la segunda es una lista en la que
-# # como primer elemento contiene el nombre o ID de los datos
-# # (osea, el diccionario)
-
-# # en resumen, el conjunto de datos se compone en una lista que
-# # su primer elemento es el nombre o ID de los datos, y en el segundo
-# # elemento contiene los datos en si, por lo que para conseguir unos
-# # datos especificos debo consultar si el primer elemento coincide 
-# # con el nombre o ID que quiero buscar, y si coincide entonces 
-# # mostrar el arreglo entero
-
-# with open("prueba.json", "w")as archivo:
-
-# 	#datos = La lista que contiene todos los datos 
-
-# 	json.dump(datos, archivo, indent=4)
